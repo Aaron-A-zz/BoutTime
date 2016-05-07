@@ -206,6 +206,7 @@
                         <outlet property="secondDownButton" destination="VXX-Yy-Afh" id="zik-gk-8mh"/>
                         <outlet property="secondEventLable" destination="KzE-Dh-AWa" id="drG-x4-CYn"/>
                         <outlet property="secondUpButton" destination="bzQ-or-Vx2" id="ufw-o0-LiP"/>
+                        <outlet property="shakeLabel" destination="Oxx-3i-mL3" id="pgA-Kx-4Q4"/>
                         <outlet property="thirdDownButton" destination="3en-DO-8ft" id="d4q-qC-vUq"/>
                         <outlet property="thirdEventLable" destination="igg-3g-QN2" id="oAc-Cq-Tqh"/>
                         <outlet property="thirdUpButton" destination="aKA-L2-3c9" id="kei-Ko-fyd"/>

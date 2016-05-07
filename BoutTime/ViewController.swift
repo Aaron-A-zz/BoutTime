@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var forthUpButton: UIButton!
     @IBOutlet weak var countDownLabel: UILabel!
     @IBOutlet weak var nextRoundButton: UIButton!
+    @IBOutlet weak var shakeLabel: UILabel!
     
     var soundEffect: AVAudioPlayer!
     var gameScore = 0
@@ -158,7 +159,7 @@ class ViewController: UIViewController {
         countDown = 60
         endRound()
         showNextRoundButton()
-        print(gameScore)
+        
     }
         //Updates label text
     func updateEventLables() {
@@ -182,10 +183,12 @@ class ViewController: UIViewController {
     
     func showNextRoundButton() {
         nextRoundButton.hidden = false
+        shakeLabel.hidden = true
     }
     
     @IBAction func nextRoundButtonPressed(sender: AnyObject) {
         nextRoundButton.hidden = true
+        shakeLabel.hidden = false
         clearCurrentRound()
         startRound()
         
