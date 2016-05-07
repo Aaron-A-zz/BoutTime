@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         if segue.identifier == "gameOver" {
             let svg = segue.destinationViewController as! EndGameController
             
-            svg.endGameScore = "\(gameScore)/4"
+            svg.endGameScore = "\(gameScore)/6"
         }
     }
 
