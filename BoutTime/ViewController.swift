@@ -41,7 +41,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        startGame()
+       
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        showAlert("Place the Presidents in the order in which they served. The oldest at the top & the most recent at the bottom.")
     }
     
     override func didReceiveMemoryWarning() {
@@ -70,6 +74,7 @@ class ViewController: UIViewController {
 
     // Get 24 random questions from the appleProducts Array located in the HistoricalEvent.swift file
     func startGame() {
+        
         shuffle()
         for i in 0...23 {
             gameEvents.append(nextGame[i])
@@ -222,6 +227,23 @@ class ViewController: UIViewController {
         roundCounter = 0
         self.performSegueWithIdentifier("gameOver", sender: self)
     }
+    
+    func showAlert(title: String, message: String? = nil, style: UIAlertControllerStyle = .Alert) {
+        
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: style)
+        
+        let okAction = UIAlertAction(title: "OK", style: .Default, handler: dismissAlert)
+        
+        alertController.addAction(okAction)
+        
+        presentViewController(alertController, animated: true, completion: nil)
+        
+    }
+    
+    func dismissAlert(sender: UIAlertAction) {
+        startGame()
+    }
+
 
 }
 
