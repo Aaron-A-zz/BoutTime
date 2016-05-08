@@ -45,6 +45,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
+        //Kicks of the Alert then calls on dismissAlert which starts the game :) 
         showAlert("Place the Presidents in the order in which they served. The oldest at the top & the most recent at the bottom.")
     }
     
