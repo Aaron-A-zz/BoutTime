@@ -76,7 +76,7 @@ let barackObama = HistoricalEvent(event: "Barack Obama", date: 2009)
 
 
 
-var appleProducts = [georgeWashington, johnAdams, thomasJefferson, jamesMadison, jamesMonroe, johnQuincyAdams, andrewJackson,martinVanBuren, williamHenryHarrison, johnTyler, jamesKPolk, zacharyTaylor, millardFillmore, franklinPierce, jamesBuchanan, abrahamLincoln, andrewJohnson, ulyssesSGrant, rutherfordBHayes, jamesAGarfield, chesterAArthur, groverCleveland1, benjaminHarrison, groverCleveland2, williamMckinley, theodoreRoosevelt, williamHowardTaft, woodrowWilson, warrenGHarding, calvinCoolidge, herbertHoover, franklinDRoosevelt, harrySTruman, dwightDEisenhower, johnFKennedy, lyndonBJohnson, richardNixon, geraldFord,jimmyCarter, ronaldReagan, georgeHWBush, billClinton, georgeWBush,barackObama]
+var presidentsList = [georgeWashington, johnAdams, thomasJefferson, jamesMadison, jamesMonroe, johnQuincyAdams, andrewJackson,martinVanBuren, williamHenryHarrison, johnTyler, jamesKPolk, zacharyTaylor, millardFillmore, franklinPierce, jamesBuchanan, abrahamLincoln, andrewJohnson, ulyssesSGrant, rutherfordBHayes, jamesAGarfield, chesterAArthur, groverCleveland1, benjaminHarrison, groverCleveland2, williamMckinley, theodoreRoosevelt, williamHowardTaft, woodrowWilson, warrenGHarding, calvinCoolidge, herbertHoover, franklinDRoosevelt, harrySTruman, dwightDEisenhower, johnFKennedy, lyndonBJohnson, richardNixon, geraldFord,jimmyCarter, ronaldReagan, georgeHWBush, billClinton, georgeWBush,barackObama]
 
 
 
